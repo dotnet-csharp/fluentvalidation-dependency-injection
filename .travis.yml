@@ -1,9 +1,9 @@
 language: csharp
-solution: src/FluentValidationWithDependencyInjection.sln
+solution: src/FluentValidationWithDependencyInjection/FluentValidationWithDependencyInjection.sln
 install:
-  - nuget restore src/FluentValidationWithDependencyInjection.sln
+  - nuget restore src/FluentValidationWithDependencyInjection/FluentValidationWithDependencyInjection.sln
 script:
-  - xbuild src/FluentValidationWithDependencyInjection.sln
+  - xbuild src/FluentValidationWithDependencyInjection/FluentValidationWithDependencyInjection.sln
 group: stable
 dist: precise
 os: linux
