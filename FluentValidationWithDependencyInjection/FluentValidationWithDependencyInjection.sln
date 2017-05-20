@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tut.Model", "Tut.Model\Tut.Model.csproj", "{61E644F9-668D-4042-9218-45B28035390F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tut.Controllers", "Tut.Controller\Tut.Controllers.csproj", "{039A9E3B-6D46-4D61-B729-9227A9E60985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tut.Web", "Tut.Web\Tut.Web.csproj", "{D1421E91-0D28-4CE5-9262-86354DC583CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61E644F9-668D-4042-9218-45B28035390F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E644F9-668D-4042-9218-45B28035390F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E644F9-668D-4042-9218-45B28035390F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E644F9-668D-4042-9218-45B28035390F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{039A9E3B-6D46-4D61-B729-9227A9E60985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{039A9E3B-6D46-4D61-B729-9227A9E60985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{039A9E3B-6D46-4D61-B729-9227A9E60985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{039A9E3B-6D46-4D61-B729-9227A9E60985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1421E91-0D28-4CE5-9262-86354DC583CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1421E91-0D28-4CE5-9262-86354DC583CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1421E91-0D28-4CE5-9262-86354DC583CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1421E91-0D28-4CE5-9262-86354DC583CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
