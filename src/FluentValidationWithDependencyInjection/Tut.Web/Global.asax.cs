@@ -11,6 +11,7 @@ namespace Tut.Web
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            AutofacConfig.RegsiterComponents();
 
             FluentValidationModelValidatorProvider.Configure();
         }
