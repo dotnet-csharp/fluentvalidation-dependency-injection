@@ -11,7 +11,7 @@ namespace Tut.Repositories
     {
         public DIContext() : base("DIContext")
         {
-            Database.SetInitializer(new DbInitializer());
+
         }
 
         public virtual DbSet<UserProfile> UserProfiles { get; set; }
@@ -20,6 +20,8 @@ namespace Tut.Repositories
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            //Database.SetInitializer(new NullDatabaseInitializer<DbContext>());
+            Database.SetInitializer(new DbInitializer());
             modelBuilder.Configurations.Add(new UserProfileConfiguration());
             modelBuilder.Configurations.Add(new BlogConfiguration());
         }

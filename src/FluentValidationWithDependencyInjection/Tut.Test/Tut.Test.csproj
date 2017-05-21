@@ -38,10 +38,6 @@
     <Reference Include="Autofac">
       <HintPath>..\packages\Autofac.4.0.1\lib\net45\Autofac.dll</HintPath>
     </Reference>
-    <Reference Include="Autofac.Extras.Moq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
-      <HintPath>..\packages\Autofac.Extras.Moq.4.0.0\lib\net45\Autofac.Extras.Moq.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <HintPath>..\packages\Castle.Core.4.0.0\lib\net45\Castle.Core.dll</HintPath>
       <Private>True</Private>
@@ -89,10 +85,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tut.Data.Core\Tut.Services.csproj">
-      <Project>{8d7176a3-36b6-4ab0-93d3-cfaf094b9d76}</Project>
-      <Name>Tut.Services</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Tut.Entities\Tut.Entities.csproj">
       <Project>{9da325b6-8888-4bfc-bebc-691b384a5cea}</Project>
       <Name>Tut.Entities</Name>

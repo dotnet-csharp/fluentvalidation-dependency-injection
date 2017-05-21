@@ -7,7 +7,7 @@ using Tut.Model.Validator;
 using Tut.Repositories.Injection;
 using Tut.Services.Injection;
 
-namespace Tut.Web
+namespace Tut.Run
 {
     public class AutofacConfig
     {

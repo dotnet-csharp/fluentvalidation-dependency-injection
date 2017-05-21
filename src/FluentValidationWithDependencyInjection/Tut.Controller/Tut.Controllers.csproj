@@ -50,13 +50,13 @@
     <Compile Include="UserController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tut.Data.Core\Tut.Services.csproj">
-      <Project>{8d7176a3-36b6-4ab0-93d3-cfaf094b9d76}</Project>
-      <Name>Tut.Services</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Tut.Entities\Tut.Entities.csproj">
       <Project>{9da325b6-8888-4bfc-bebc-691b384a5cea}</Project>
       <Name>Tut.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tut.Services\Tut.Services.csproj">
+      <Project>{8d7176a3-36b6-4ab0-93d3-cfaf094b9d76}</Project>
+      <Name>Tut.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

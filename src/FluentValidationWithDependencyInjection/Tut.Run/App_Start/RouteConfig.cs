@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Tut.Web
+namespace Tut.Run
 {
     public class RouteConfig
     {
@@ -10,7 +10,7 @@ namespace Tut.Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute("Default", "{controller}/{action}/{id}",
-                new {controller = "Blogs", action = "Index", id = UrlParameter.Optional}
+                new {controller = "Blog", action = "Index", id = UrlParameter.Optional}
                 );
         }
     }

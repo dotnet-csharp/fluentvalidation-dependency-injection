@@ -2,11 +2,7 @@
 
 namespace Tut.Repositories
 {
-    public class DbInitializer : CreateDatabaseIfNotExists<DIContext>
+    public class DbInitializer : NullDatabaseInitializer<DIContext>
     {
-        protected override void Seed(DIContext context)
-        {
-            base.Seed(context);
-        }
     }
 }
