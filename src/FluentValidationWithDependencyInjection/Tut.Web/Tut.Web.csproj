@@ -51,6 +51,13 @@
       <HintPath>..\packages\Autofac.Mvc5.4.0.2\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="FluentValidation, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentValidation.7.0.0\lib\net45\FluentValidation.dll</HintPath>
       <Private>True</Private>
@@ -119,6 +126,8 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Views\_Layout.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -135,9 +144,17 @@
       <Project>{039a9e3b-6d46-4d61-b729-9227a9e60985}</Project>
       <Name>Tut.Controllers</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Tut.Data.Core\Tut.Services.csproj">
+      <Project>{8d7176a3-36b6-4ab0-93d3-cfaf094b9d76}</Project>
+      <Name>Tut.Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Tut.Model\Tut.Model.csproj">
       <Project>{61e644f9-668d-4042-9218-45b28035390f}</Project>
       <Name>Tut.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tut.Repositories\Tut.Repositories.csproj">
+      <Project>{4924d6a5-5d77-4d00-9d07-eda1e36a5237}</Project>
+      <Name>Tut.Repositories</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

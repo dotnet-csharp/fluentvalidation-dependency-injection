@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Tut.Entities.Blogs>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+@foreach (var item in Model)
+{
+    <div class="">
+        @item.Id
+    </div>
+    <div class="">
+        @item.Name
+    </div>
+}
+

@@ -2,7 +2,7 @@
 
 namespace Tut.Model
 {
-    [FluentValidation.Attributes.Validator(typeof(Validator.RegsiterModelValidator))]
+    //[FluentValidation.Attributes.Validator(typeof(Validator.RegsiterModelValidator))]
     public class RegsiterModel
     {
         [Display(Name = "User name")]

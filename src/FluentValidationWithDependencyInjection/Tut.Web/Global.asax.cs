@@ -1,7 +1,6 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using FluentValidation.Mvc;
 
 namespace Tut.Web
 {
@@ -13,7 +12,7 @@ namespace Tut.Web
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             AutofacConfig.RegsiterComponents();
 
-            FluentValidationModelValidatorProvider.Configure();
+            //FluentValidationModelValidatorProvider.Configure();
         }
     }
 }
